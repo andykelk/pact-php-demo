@@ -1,4 +1,4 @@
-var example = example || {};
+var ZooClient = ZooClient || {};
 
 (function() {
 
@@ -18,4 +18,4 @@ var example = example || {};
 
     return new Alligator(JSON.parse(xhr.responseText).name);
   };
-}).apply(example);
+}).apply(ZooClient);

@@ -2,7 +2,7 @@ describe("Client", function() {
   var client, alligatorProvider;
 
   beforeEach(function() {
-    client = example.createClient('http://localhost:1234');
+    client = ZooClient.createClient('http://localhost:1234');
 
     alligatorProvider = Pact.mockService({
       consumer: 'Alligator Consumer',
