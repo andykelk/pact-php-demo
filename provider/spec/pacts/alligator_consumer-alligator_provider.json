@@ -1,0 +1,33 @@
+{
+  "consumer": {
+    "name": "Alligator Consumer"
+  },
+  "provider": {
+    "name": "Alligator Provider"
+  },
+  "interactions": [
+    {
+      "description": "a request for an alligator",
+      "provider_state": "an alligator with the name Mary exists",
+      "request": {
+        "method": "get",
+        "path": "/alligators/Mary",
+        "headers": {
+          "Accept": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "name": "Mary"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecificationVersion": "1.0.0"
+  }
+}
