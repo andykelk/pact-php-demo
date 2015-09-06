@@ -6,9 +6,9 @@ First, set up the consumer:
 * Install Ruby and RubyGems
 * Install Node and npm
 * Install dependencies: `npm install`
-* Install bower: `sudo npm install -g bower`
 * Install karma cli: `sudo npm install -g karma-cli`
-* Install pact: `bower install pact-consumer-js-dsl --save-dev`
+* Install bower: `sudo npm install -g bower`
+* Install pact: `bower install`
 * Run the pact service: `bundle exec pact-mock-service -p 1234 -l log/pact.logs --pact-dir tmp/pacts`
 * Run the tests (in another terminal): `karma start`
 * Your pact file is now in `tmp/pacts`
