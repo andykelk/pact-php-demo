@@ -1,0 +1,22 @@
+{
+  "name": "consumer",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mopoke/pact-php-demo",
+  "authors": [
+    "Andy Kelk <andy@andykelk.net>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pact-consumer-js-dsl": "~0.2.0"
+  }
+}
